@@ -154,11 +154,24 @@ header ul li a:hover , header ul li a.active
 
 #video {
     position: relative;
-    padding-left: 20vw;
+    /*padding-left: 20vw;
     padding-top: 2em;
     background-color: #000000;
-    padding-bottom: 2em;
+    padding-bottom: 2em;*/
+    overflow: hidden;
+    width: 100%;
+    padding-top: 56.25%;
 }
+
+.responsive-iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+  }
 
 #contacts {
     color: #000000;
