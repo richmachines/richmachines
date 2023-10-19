@@ -59,6 +59,20 @@ header ul li a:hover , header ul li a.active
     color: #ffffff;
 }
 
+#timer{
+    z-index: 10001;
+    padding-top: 49%;
+    font-size: 5.5em;
+    color: #000000;
+    text-decoration: overline;
+    text-decoration: underline;
+    text-decoration-style: solid;
+    text-decoration-color: rgb(0, 0, 0);
+    text-shadow: 2px 2px rgb(255, 255, 255);
+    text-shadow: 0 0 3px #ffffff, 0 0 5px #fbfbfb;
+}
+
+
 #pagebuttons
 {
     background: rgb(255, 255, 255);
