@@ -26,7 +26,12 @@
     <meta property="og:image"              content="https://richmachines.github.io/assets/images/RM_face.jpeg" />
 
     <title>R I C H   M A C H I N E S - ELECTRONIC MUSIC</title>
+    <!-- main css -->
     <link rel="stylesheet" type="text/css" href="style.css" />
+    <!-- CSS with media query -->
+    <link rel="stylesheet"
+    media="screen and (max-width: 401px)"
+    href="small-screen-style.css">
   </head>
   <body>
     <header>
@@ -73,11 +78,20 @@ var x = setInterval(function() {
     <div id="pagebuttons">
       <ul>
         <li><a href="#">Home</a></li>
+        <li><a href="#header_new_release">New Release</a></li>
         <li><a href="#Music">Music</a></li>
         <li><a href="#video">Video</a></li>
         <li><a href="#contacts">Contact</a></li>
       </ul>
     </div>
+
+    <div id="header_new_release">
+      <h2>New Release</h2>
+    </div>
+    <div id="new_release">
+      <div id="LV___VN">
+        <iframe style="border-radius:12px" src="https://open.spotify.com/embed/album/386DgExu6fjqu2x7yYCrw4?utm_source=generator" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+      </div>
 
     <div id="header_albums">
       <h2>Albums</h2>

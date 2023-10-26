@@ -313,6 +313,16 @@ section img#points3
     color: #fff;
 }
 
+#header_new_release{
+    color: #fff; 
+    position: relative;
+    width: 100%;
+    padding: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;   
+}
+
 #header_albums{
     color: #fff; 
     position: relative;

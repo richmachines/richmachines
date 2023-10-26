@@ -1,0 +1,81 @@
+
+header
+{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 30px 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 10000;
+}
+
+#timer{
+    z-index: 10001;
+    padding-top: 49%;
+    font-size: 1.9em;
+    color: #000000;
+    text-decoration: overline;
+    text-decoration: underline;
+    text-decoration-style: solid;
+    text-decoration-color: rgb(0, 0, 0);
+    text-shadow: 2px 2px rgb(255, 255, 255);
+    text-shadow: 0 0 3px #ffffff, 0 0 5px #fbfbfb;
+}
+
+#pagebuttons
+{
+    background: rgb(255, 255, 255);
+    border: 3px solid rgb(0, 0, 0);
+    position: relative;
+    top: 200;
+    left: 50;
+    width: 100%;
+    padding: 10px 0px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 10000;
+}
+#pagebuttons ul
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+}
+#pagebuttons ul li
+{
+    list-style: none;
+    margin-left: 5px;
+}
+#pagebuttons ul li a
+{
+    text-decoration: none;
+    padding: 2px 5px;
+    color: #060505;
+    border-radius: 20px;
+}
+
+#Music {
+    color: #000000;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    grid-row-gap: 1px;
+    background: rgb(255, 255, 255);
+}
+
+#contacts {
+    color: #000000;
+    padding-left: 5px;
+    padding-bottom: 10px;
+    background: rgb(255, 255, 255);
+  }
+
+#contacts p{
+    size: 1em;
+    font-family: Courier;
+}
